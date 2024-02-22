@@ -1,3 +1,10 @@
+/*William Lawecki 2/21/2024
+  Just some random code I started writing.
+  Trying to not get rusty.  Goal of this program
+  is to create an Account class that will manage a user's
+  bank account.  Basic functions such as withdrawl, deposit,
+  and print balance.  Checks a withdrawl condition.*/
+
 public class Account {
     private int acctNumber;
     private String firstName;
@@ -42,3 +49,4 @@ public class Account {
 
     }
 }
+//Available Balance: $2945.0
