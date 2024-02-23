@@ -24,5 +24,18 @@ public class File_Import {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        
+        File file2 = new File("input2.txt"); //Same thing going on here as the loops above.
+        try (Scanner scanner2 = new Scanner(file2)) {
+            while (scanner2.hasNext()) {
+                arrayList1.add(scanner2.nextInt());
+            }
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+
+        Collections.sort(arrayList1); //Using the Collection class here to sort our Array List.
+        // System.out.println(arrayList1); //debugging here to check accuracy before we write a file
+
     }
 }
